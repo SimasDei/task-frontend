@@ -3,7 +3,8 @@
 @import './components/Offers/Offers.scss';
 
 .landing {
-  height: 100vh;
-  background-image: url('./assets/background.jpg');
+  min-height: 100vh;
+  background: linear-gradient(rgba(20, 20, 20, 0.3), rgba(20, 20, 20, 0.3)),
+    url('./assets/background.jpg');
   background-size: cover;
 }

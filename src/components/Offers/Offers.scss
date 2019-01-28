@@ -1,26 +1,28 @@
-.countdown__container {
-  width: 100%;
-  color: #fff;
+.countdown {
+  &__container {
+    width: 100%;
+    color: #fff;
 
-  &__header {
-    font-size: 3rem;
-    font-weight: 500;
+    .btn {
+      color: #fff;
+      font-size: 0.8rem;
+      width: 15rem;
+      border-radius: 0.5rem;
+      height: 3rem;
+      background-color: #cf4064;
+      text-transform: uppercase;
+      font-weight: 600;
+      border: none;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
   }
 
-  .btn {
-    color: #fff;
-    font-size: 0.8rem;
-    width: 60%;
-    border-radius: 0.5rem;
-    height: 4rem;
-    background-color: #cf4064;
-    text-transform: uppercase;
-    font-weight: 600;
-    border: none;
-
-    &:hover {
-      cursor: pointer;
-    }
+  &__header {
+    font-size: 1.4rem;
+    font-weight: 500;
   }
 }
 
@@ -51,7 +53,65 @@
   }
 }
 
-.offers__container {
-  border: 1px solid #fff;
-  width: 100%;
+.offers {
+  &__container {
+    width: 45%;
+    color: #fff;
+  }
+
+  &__header {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+
+    h3 {
+      padding: 0.25rem;
+      text-transform: uppercase;
+      font-weight: 600;
+      background-color: #cf5d7a;
+    }
+
+    span {
+      position: absolute;
+      color: #cf5d7a;
+      transform: translateX(-50%) translateY(-50%);
+      top: 107%;
+    }
+  }
+
+  &__offer {
+    display: flex;
+    flex: row wrap;
+    align-items: center;
+    margin-top: -6rem;
+    justify-content: flex-end;
+    padding: 2rem;
+
+    &--aside1 {
+      font-weight: 700;
+      font-size: 6rem;
+    }
+
+    &--number {
+      margin: 0px 1rem;
+      display: inline-block;
+      font-weight: 700;
+      font-size: 18rem;
+    }
+
+    &--aside2 {
+      display: flex;
+      flex-direction: column;
+
+      :first-child {
+        font-weight: 700;
+        font-size: 4rem;
+      }
+
+      :nth-child(2) {
+        font-size: 3rem;
+      }
+    }
+  }
 }
