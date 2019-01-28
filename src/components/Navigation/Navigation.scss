@@ -1,0 +1,44 @@
+.navigation {
+  width: 80%;
+  max-width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  padding-top: 1rem;
+
+  &__list {
+    display: flex;
+    margin: 0;
+    list-style: none;
+    font-size: 0.8rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+  }
+  &__item {
+    position: relative;
+    padding: 0.5rem;
+  }
+  &__link {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+
+    &--sale {
+      position: absolute;
+      color: #f2f701;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 0.6rem;
+      top: 0;
+      left: 7%;
+    }
+  }
+
+  &__link:hover {
+    color: #f2f701;
+  }
+
+  &__logo {
+    margin-right: auto;
+  }
+}
