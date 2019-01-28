@@ -1,0 +1,29 @@
+.guarantee {
+  &__container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    margin: 6% auto 0 auto;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+
+  &__item {
+    padding: 0 0.5rem;
+
+    p {
+      display: inline-block;
+    }
+
+    span {
+      color: #22aa4f;
+    }
+  }
+}
