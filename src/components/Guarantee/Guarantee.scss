@@ -27,3 +27,11 @@
     }
   }
 }
+
+@media (max-width: 930px) {
+  .guarantee {
+    &__list {
+      flex-direction: column;
+    }
+  }
+}

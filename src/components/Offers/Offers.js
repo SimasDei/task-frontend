@@ -43,13 +43,12 @@ const Offers = () => {
       </div>
 
       <div className="offers__container">
-        <div className="offers__header">
-          <h3>Save 82%</h3>
-          <span>&#9660;</span>
-        </div>
         <div className="offers__offer">
           <span className="offers__offer--aside1">$</span>
-          <p className="offers__offer--number">1</p>
+          <p className="offers__offer--number">
+            <span>Save 82%</span>
+            <span>&#9660;</span>1
+          </p>
           <div className="offers__offer--aside2">
             <span>45</span>
             <span>/mo</span>

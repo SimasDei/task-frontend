@@ -1,6 +1,6 @@
 .countdown {
   &__container {
-    width: 100%;
+    width: 45%;
     color: #fff;
 
     .btn {
@@ -59,32 +59,11 @@
     color: #fff;
   }
 
-  &__header {
-    width: 25%;
-    margin: 0 auto;
-    text-align: center;
-    position: relative;
-
-    h3 {
-      padding: 0.25rem;
-      text-transform: uppercase;
-      font-weight: 600;
-      background-color: #cf5d7a;
-    }
-
-    span {
-      position: absolute;
-      color: #cf5d7a;
-      transform: translateX(-50%) translateY(-50%);
-      top: 107%;
-    }
-  }
-
   &__offer {
     display: flex;
     flex: row wrap;
     align-items: center;
-    margin-top: -6rem;
+    margin-top: -1rem;
     justify-content: flex-end;
     padding: 2rem;
 
@@ -94,10 +73,34 @@
     }
 
     &--number {
+      position: relative;
       margin: 0px 1rem;
       display: inline-block;
       font-weight: 700;
       font-size: 18rem;
+
+      span:first-child {
+        position: absolute;
+        font-size: 1rem;
+        display: block;
+        text-align: center;
+        top: 18%;
+        left: 50%;
+        margin-top: 4px;
+        transform: translateX(-50%) translateY(-50%);
+        background-color: #cf5d7a;
+        padding: 0.3rem;
+      }
+      span:nth-child(2) {
+        font-size: 1rem;
+        position: absolute;
+        display: block;
+        text-align: center;
+        transform: translateX(-50%) translateY(-50%);
+        top: 24%;
+        left: 50%;
+        color: #cf5d7a;
+      }
     }
 
     &--aside2 {
@@ -112,6 +115,25 @@
       :nth-child(2) {
         font-size: 3rem;
       }
+    }
+  }
+}
+
+@media (max-width: 920px) {
+  .countdown {
+    &__container {
+      text-align: center;
+      display: flex;
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .offers {
+    &__container {
+      display: flex;
+      justify-content: center;
     }
   }
 }
