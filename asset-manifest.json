@@ -1,0 +1,15 @@
+{
+  "main.css": "/task-frontend/static/css/main.f158370a.chunk.css",
+  "main.js": "/task-frontend/static/js/main.2e94f883.chunk.js",
+  "main.js.map": "/task-frontend/static/js/main.2e94f883.chunk.js.map",
+  "static/js/1.40f1e39a.chunk.js": "/task-frontend/static/js/1.40f1e39a.chunk.js",
+  "static/js/1.40f1e39a.chunk.js.map": "/task-frontend/static/js/1.40f1e39a.chunk.js.map",
+  "runtime~main.js": "/task-frontend/static/js/runtime~main.145f7517.js",
+  "runtime~main.js.map": "/task-frontend/static/js/runtime~main.145f7517.js.map",
+  "static/media/App.scss": "/task-frontend/static/media/background.7c0b8a4c.jpg",
+  "static/media/logo.svg": "/task-frontend/static/media/logo.b3eb6a37.svg",
+  "static/css/main.f158370a.chunk.css.map": "/task-frontend/static/css/main.f158370a.chunk.css.map",
+  "index.html": "/task-frontend/index.html",
+  "precache-manifest.f57cd5cdfa5a2feda3330a600312b08e.js": "/task-frontend/precache-manifest.f57cd5cdfa5a2feda3330a600312b08e.js",
+  "service-worker.js": "/task-frontend/service-worker.js"
+}
